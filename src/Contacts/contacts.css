@@ -1,0 +1,64 @@
+.person-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    position: relative;
+    display: flex;
+}
+.img-box {
+    position: relative;
+    margin-right: 20px;
+}
+img {
+    height: 100px;
+    border-radius: 50%;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+}
+.name {
+    margin: 0;
+}
+.nickname {
+    font-style: italic;
+}
+.favorite-heart {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    font-size: 40px;
+    color: red;
+    cursor: pointer;
+}
+.edit-contact {
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    font-size: 35px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .person-container {
+        width: 100%;
+        padding: 5px;
+    }
+    h1 {
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .nickname {
+        font-size: 14px;
+    }
+    .email {
+        font-size: 14px;
+    }
+    .phone {
+        font-size: 14px;
+    }
+}

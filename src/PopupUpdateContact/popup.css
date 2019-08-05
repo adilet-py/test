@@ -1,0 +1,17 @@
+p {
+    margin: 5px 20px 5px 20px;
+}
+edit-a-contact {
+    margin: 0 20px 30px 20px;
+}
+input {
+    margin: 5px 20px 5px 20px;
+}
+.buttons {
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    cursor: pointer;
+}
